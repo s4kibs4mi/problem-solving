@@ -1,4 +1,4 @@
-package main
+package hackerrank
 
 import "fmt"
 
@@ -9,7 +9,9 @@ import "fmt"
  * := Coffee : Dream : Code
  */
 
-func main() {
+// Problem Statement : https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem
+
+func RunArraysLeftRotation() {
 	var n, m, x int
 	fmt.Scanf("%d %d", &n, &m)
 	var numbers []int

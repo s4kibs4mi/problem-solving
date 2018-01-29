@@ -33,7 +33,7 @@ func (ll LuckLake) Less(i, j int) bool {
 	return ll[i].Luck > ll[j].Luck
 }
 
-func Run() {
+func RunLuckBalance() {
 	var n, k int
 	fmt.Scanf("%d %d", &n, &k)
 	var luckLake LuckLake
